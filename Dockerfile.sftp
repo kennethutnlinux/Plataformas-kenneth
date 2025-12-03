@@ -1,6 +1,7 @@
 FROM atmoz/sftp
 
 # usuario : contraseña ::: carpeta
-ENV SFTP_USERS="admin:admin123:::Trabajo"
+ENV SFTP_USERS="admin:123456qwerty@:::Kenneth"
 
 EXPOSE 22
+
