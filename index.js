@@ -4,7 +4,7 @@ const app = express();
 
 const PORT = process.env.PORT || 8080;
 
-// Servir archivos estáticos
+// Servir archivos estáticos desde la raíz
 app.use(express.static(path.join(__dirname)));
 
 // Servir index.html en la raíz
